@@ -1,5 +1,5 @@
 local myTACANS = mist.getUnitsByAttribute({typeName = 'TACAN_beacon', coalition = "blue"}, 2, false) --, coalition = "blue"
-trigger.action.outText(mist.utils.tableShow(myTACANS,';'), 100, false)
+--trigger.action.outText(mist.utils.tableShow(myTACANS,';'), 100, false)
 
 function getTableSize(t)
     local count = 0
